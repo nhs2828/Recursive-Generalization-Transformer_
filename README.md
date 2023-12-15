@@ -3,7 +3,7 @@ Unoffical implementation of the paper https://openreview.net/pdf?id=owziuM1nsR.
 This architecture is specialized for the Super Resolution domain. 
 
 # Implemntation for x2 factor
-We only used DIV2k dataset instead of [DIV2K](https://www.kaggle.com/datasets/joe1995/div2k-dataset/code) and [Flickr2k](https://www.kaggle.com/datasets/hliang001/flickr2k) since the resource for computation is limited. For the same reason, we reduce the number of Residual Blocks (RG) from 6 to 2, but keep the same number of Transformer blocks as 12 per RG block. The model is trained in 1 day on 1 GPU NVIDIA A100.
+We only used DIV2k dataset instead of [DIV2K](https://www.kaggle.com/datasets/joe1995/div2k-dataset/code) and [Flickr2k](https://www.kaggle.com/datasets/hliang001/flickr2k) since the resource for computation is limited. For the same reason, we reduced the number of Residual Blocks (RG) from 6 to 2, but kept the same number of Transformer blocks as 12 per RG block. The model was trained for 1 day on 1 GPU NVIDIA A100 40GB.
 
 ![Capture d’écran 2023-12-15 à 15 03 27](https://github.com/nhs2828/Recursive-Generalization-Transformer_/assets/78078713/46fb8b05-fc9d-4da4-9b6b-d53ea6dd5bb2)
 
