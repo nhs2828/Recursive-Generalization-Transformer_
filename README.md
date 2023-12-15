@@ -17,7 +17,7 @@ We only used DIV2k dataset instead of [DIV2K](https://www.kaggle.com/datasets/jo
 
 
 # Results
-After 5600 itérations, the model yields 39.036 PSNR (Peak Signal to Noise Ratio) score and 0.9334 SSIM (Structural similarity index measure)score.
+After 5600 itérations, the model yields 39.036 PSNR (Peak Signal to Noise Ratio) score and 0.9334 SSIM (Structural similarity index measure) score.
 
 <figcaption>Reconstructed images from Low resolution</figcaption>
 
