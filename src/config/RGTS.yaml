@@ -1,0 +1,30 @@
+batch_size: 32
+  crop_size: 64
+  total_iterations: 500000
+  transforms: torchvision.transforms.Compose([
+    torchvision.transforms.ToTensor(),])
+  model:
+    N1: 6
+    N2: 6
+    dim_in: 3
+    attention_head_number: 6
+    upscale_factor: 2
+    mlp:
+      expansion_ratio: 2
+    convolution:
+      channel_dimension_number: 180
+    L_SA:
+      window_size: (8, 32)
+    RG_SA:
+      h:
+        train: 4
+        test: 16
+      s_r: 4
+      c_r: 0.5
+    optimizer:
+      classname: torch.optim.Adam
+      lr: 0.0002
+      beta1: 0.9
+      beta2: 0.99
+  lr_scheduler:
+    milestones: [250000, 400000, 450000, 475000]
