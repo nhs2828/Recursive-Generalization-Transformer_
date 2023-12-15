@@ -12,7 +12,7 @@ We only used [DIV2k](https://www.kaggle.com/datasets/joe1995/div2k-dataset/code)
 
 # Highlights of RGT'sarchitecture:
 - Rectangle-window self-attention in L-SA block [Rwin-SA](https://arxiv.org/pdf/2211.13654.pdf)
-- Recursive-generalization self-attention (RG-SA block), this allows each token in the input image features can obtain a global receptive field by aggregating the information of the whole image features.
+- Recursive-generalization self-attention (RG-SA block), this allows each token in the input image features to obtain a global receptive field by aggregating the information of the whole image features.
 - Hybrid adaptive intergration, this learnable parameter encourages more information flows to the deep network layers.
   
 ![Capture d’écran 2023-12-15 à 15 04 38](https://github.com/nhs2828/Recursive-Generalization-Transformer_/assets/78078713/c60b98c4-34f4-4973-ab69-da36c7a70876)
