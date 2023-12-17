@@ -19,7 +19,7 @@ We (me and [Yann Le Lorier](https://github.com/yannlelorier)) only used [DIV2k](
 
 
 # Results
-After 5600 itérations, the model yields 39.036 PSNR (Peak Signal to Noise Ratio) score and 0.9334 SSIM (Structural similarity index measure) score.
+After 5600 iterations, the model yields 39.036 PSNR (Peak Signal to Noise Ratio) score and 0.9334 SSIM (Structural similarity index measure) score.
 
 <figcaption>Reconstructed images from Low resolution</figcaption>
 
