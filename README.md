@@ -1,5 +1,5 @@
-# Recursive-Generalization-Transformer
-Unoffical implementation of the paper https://openreview.net/pdf?id=owziuM1nsR.
+# [Recursive-Generalization-Transformer](https://openreview.net/pdf?id=owziuM1nsR)
+Unoffical implementation of the paper ICLR 2024.
 This architecture is specialized for the Super Resolution domain. 
 
 # Implemntation for x2 factor
